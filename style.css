@@ -108,6 +108,29 @@ li{
     color: #49bf9d;
 }
 
+input, label, textarea{
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input, textarea{
+    background: #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    margin-bottom: 15px;
+}
+
+input:focus, textarea:focus{
+    border: 2px solid #49bf9d;
+    outline: none;
+}
+
+textarea{
+    height: 10em;
+}
+
 .button-default{
     background-color: #49bf9d;
     border: 2px solid #49bf9d;
@@ -116,6 +139,7 @@ li{
     border-radius: 5px;
     font-size: .8em;
     display: inline-block;
+    width: auto;
 }
 
 .button-default-stroke{
@@ -128,9 +152,51 @@ li{
     font-size: .65em;
 }
 
+.button-default-sized{
+    font-size: 1em;
+}
+
 .button-default-full{
    display: block;
    text-align: center;
+}
+
+.table{
+    width: 100%;
+    margin: 0 0 2em 0;
+    border-collapse: collapse;
+    text-align: left;
+
+}
+
+.table td{
+    padding: .75em;
+}
+
+.table th{
+    background-color: #ccc;
+    padding: .75em;
+}
+
+.table tbody tr td{
+    border-bottom: 1px solid #ccc;
+}
+
+.table tbody tr:first-child td{
+    border-top: 2px solid #555;
+}
+
+.table tbody tr:last-child td{
+    border-bottom: 2px solid #555;
+}
+
+.table tbody tr:nth-child(odd) td{
+    background-color: #eee;
+}
+
+.table-alternate tbody td, .table-alternate tbody tr:first-child td, .table-alternate tbody tr:last-child td{
+    border: 1px solid #ddd;
+
 }
 
 .main-header{
@@ -170,11 +236,32 @@ li{
     box-sizing: border-box;
 }
 
+/* Grid */
+
 .row{
     overflow: auto;
 }
 
 .col-2{
-    width: 50%;
+    width: 48.5%;
+    float: left;
+}
+
+.col-2:first-child{
+    margin-right: 1.5%;
+}
+
+.col-2:last-child{
+    margin: left 1.5%;
+}
+
+.col-2-3{
+    width: 65%;
+    float: left;
+}
+
+.col-1-3{
+    width: 32%;
+    margin-left: 3%;
     float: left;
 }
