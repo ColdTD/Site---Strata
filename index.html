@@ -20,7 +20,7 @@
     <body>
 
         <header class="main-header">
-            <a href="index.html" class="main-header-link">
+            <a href="index.html" class="main-header-link imagem-link">
                 <img src="Imagens/avatar.jpg" alt="#">
             </a>
             <h1 class="main-header-title"> 
@@ -44,55 +44,65 @@
 
                 <h3> Recent works </h3>
 
-                <article class="recent-works-card">
-                    <a href="Imagens/fulls/01.jpg"> 
-                        <img src="Imagens/thumbs/01.jpg" title="#">
-                    </a> 
-                    <p class="recent-works-card-title"> Titulo da imagem</p>
-                    <p> Minions ipsum gelatooo uuuhhh para tú bappleees para tú tank yuuu! Gelatooo po kass. </p>
-                </article>
+                <div class="row">
+                    <div class="col-2">
 
-                <article class="recent-works-card">
-                    <a href="Imagens/fulls/02.jpg"> 
-                        <img src="Imagens/thumbs/02.jpg" title="#">
-                    </a> 
-                    <p class="recent-works-card-title"> Titulo da imagem</p>
-                    <p> Minions ipsum gelatooo uuuhhh para tú bappleees para tú tank yuuu! Gelatooo po kass. </p>
-                </article>
+                        <article class="recent-works-card">
+                            <a class="imagem-link" href="Imagens/fulls/01.jpg"> 
+                                <img src="Imagens/thumbs/01.jpg" title="#">
+                            </a> 
+                            <p class="recent-works-card-title"> Titulo da imagem</p>
+                            <p> Minions ipsum gelatooo uuuhhh para tú bappleees para tú tank yuuu! Gelatooo po kass. </p>
+                        </article>
 
-                <article class="recent-works-card">
-                    <a href="Imagens/fulls/03.jpg"> 
-                        <img src="Imagens/thumbs/03.jpg" title="#">
-                    </a> 
-                    <p class="recent-works-card-title"> Titulo da imagem</p>
-                    <p> Minions ipsum gelatooo uuuhhh para tú bappleees para tú tank yuuu! Gelatooo po kass. </p>
-                </article>
+                        <article class="recent-works-card">
+                            <a class="imagem-link" href="Imagens/fulls/02.jpg"> 
+                                <img src="Imagens/thumbs/02.jpg" title="#">
+                            </a> 
+                            <p class="recent-works-card-title"> Titulo da imagem</p>
+                            <p> Minions ipsum gelatooo uuuhhh para tú bappleees para tú tank yuuu! Gelatooo po kass. </p>
+                        </article>
 
-                <article class="recent-works-card">
-                    <a href="Imagens/fulls/04.jpg"> 
-                        <img src="Imagens/thumbs/04.jpg" title="#">
-                    </a> 
-                    <p class="recent-works-card-title"> Titulo da imagem</p>
-                    <p> Minions ipsum gelatooo uuuhhh para tú bappleees para tú tank yuuu! Gelatooo po kass. </p>
-                </article>
+                        <article class="recent-works-card">
+                            <a class="imagem-link" href="Imagens/fulls/03.jpg"> 
+                                <img src="Imagens/thumbs/03.jpg" title="#">
+                            </a> 
+                            <p class="recent-works-card-title"> Titulo da imagem</p>
+                            <p> Minions ipsum gelatooo uuuhhh para tú bappleees para tú tank yuuu! Gelatooo po kass. </p>
+                        </article>
 
-                <article class="recent-works-card">
-                    <a href="Imagens/fulls/05.jpg"> 
-                        <img src="Imagens/thumbs/05.jpg" title="#">
-                    </a> 
-                    <p class="recent-works-card-title"> Titulo da imagem</p>
-                    <p> Minions ipsum gelatooo uuuhhh para tú bappleees para tú tank yuuu! Gelatooo po kass. </p>
-                </article>
+                    </div>
+                    <div class="col-2">
 
-                <article class="recent-works-card">
-                    <a href="Imagens/fulls/06.jpg"> 
-                        <img src="Imagens/thumbs/06.jpg" title="#">
-                    </a> 
-                    <p class="recent-works-card-title"> Titulo da imagem</p>
-                    <p> Minions ipsum gelatooo uuuhhh para tú bappleees para tú tank yuuu! Gelatooo po kass. </p>
-                </article>
+                        <article class="recent-works-card">
+                            <a class="imagem-link" href="Imagens/fulls/04.jpg"> 
+                                <img src="Imagens/thumbs/04.jpg" title="#">
+                            </a> 
+                            <p class="recent-works-card-title"> Titulo da imagem</p>
+                            <p> Minions ipsum gelatooo uuuhhh para tú bappleees para tú tank yuuu! Gelatooo po kass. </p>
+                        </article>
 
-                <a href="#" title="Ler mais" class="button-default"> Ler mais </a>
+                        <article class="recent-works-card">
+                            <a class="imagem-link" href="Imagens/fulls/05.jpg"> 
+                                <img src="Imagens/thumbs/05.jpg" title="#">
+                            </a> 
+                            <p class="recent-works-card-title"> Titulo da imagem</p>
+                            <p> Minions ipsum gelatooo uuuhhh para tú bappleees para tú tank yuuu! Gelatooo po kass. </p>
+                        </article>
+
+                        <article class="recent-works-card">
+                            <a class="imagem-link" href="Imagens/fulls/06.jpg"> 
+                                <img src="Imagens/thumbs/06.jpg" title="#">
+                            </a> 
+                            <p class="recent-works-card-title"> Titulo da imagem</p>
+                            <p> Minions ipsum gelatooo uuuhhh para tú bappleees para tú tank yuuu! Gelatooo po kass. </p>
+                        </article>
+                    </div>
+                </div>
+
+                        <a href="#" title="Ler mais" class="button-default"> Ler mais </a>
+
+
             </section>
 
             <section class="main-content-section">
@@ -396,8 +406,8 @@
             <label for="msg">Mensagem</label>
             <textarea placeholder="Digite um texto" id="msg"></textarea>
 
-            <input type="submit" class="button-default" value="Enviar">
-            <input type="reset" class="button-default-stroke" value="Limpar">
+            <input type="submit" class="button-default button-default-sized" value="Enviar">
+            <input type="reset" class="button-default button-default-stroke button-default-sized" value="Limpar">
 
             </section>
 
@@ -408,16 +418,16 @@
                     <img src="Imagens/fulls/01.jpg" alt="#">
                 </div>
 
-                <div class="gallery-thumb">
-                    <img src="Imagens/thumbs/01.jpg" alt="#">
-                    <img src="Imagens/thumbs/02.jpg" alt="#">
-                    <img src="Imagens/thumbs/03.jpg" alt="#">
-                    <img src="Imagens/thumbs/04.jpg" alt="#">
-                    <img src="Imagens/thumbs/05.jpg" alt="#">
-                    <img src="Imagens/thumbs/06.jpg" alt="#">
-                    <img src="Imagens/thumbs/07.jpg" alt="#">
-                    <img src="Imagens/thumbs/08.jpg" alt="#">
-                    <img src="Imagens/thumbs/09.jpg" alt="#">
+                <div class="gallery-thumb row">
+                    <img class="col-1-3" src="Imagens/thumbs/01.jpg" alt="#">
+                    <img class="col-1-3" src="Imagens/thumbs/02.jpg" alt="#">
+                    <img class="col-1-3" src="Imagens/thumbs/03.jpg" alt="#">
+                    <img class="col-1-3" src="Imagens/thumbs/04.jpg" alt="#">
+                    <img class="col-1-3" src="Imagens/thumbs/05.jpg" alt="#">
+                    <img class="col-1-3" src="Imagens/thumbs/06.jpg" alt="#">
+                    <img class="col-1-3" src="Imagens/thumbs/03.jpg" alt="#">
+                    <img class="col-1-3" src="Imagens/thumbs/02.jpg" alt="#">
+                    <img class="col-1-3" src="Imagens/thumbs/01.jpg" alt="#">
                 </div>
 
                 <h4> Left &amp; Right </h4>
