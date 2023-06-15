@@ -165,8 +165,7 @@
 
                 <h4> Texto </h4>
                 <p>
-                    Minions ipsum <b>bold</b> gelatooo uuuhhh 
-                    <em>emphasized</em> para tú bappleees 
+                    Minions ipsum <b>bold</b> gelatooo uuuhhh <em>emphasized</em> para tú bappleees 
                     <strong>strong</strong> para tú tank yuuu! 
                     Gelatooo po kass <i>italic</i>. 
                     Minions ipsum <sup>Superscript</sup> 
@@ -383,32 +382,35 @@
 
             <h5> Forms </h5>
 
-            <label for="name">Nome</label>
-            <input type="text" name="name" id="name">
+             <form action="#" method="post">
 
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email">
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" placeholder="Nome completo">
 
-            <select>
-                <option value="0"> Selecione </option>
-                <option value="1"> HTML </option>
-                <option value="2"> CSS </option>
-                <option value="3"> JavaScript </option>
-            </select>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Endereço@email.com">
 
-            <label><input type="radio" value="baixa" name="prioridade">Baixa prioridade</label>
-            <label><input type="radio" value="media" name="prioridade">Media prioridade</label>
-            <label><input type="radio" value="alta" name="prioridade">Alta prioridade</label>
+                <select>
+                    <option value="0"> Selecione um curso </option>
+                    <option value="1"> HTML </option>
+                    <option value="2"> CSS </option>
+                    <option value="3"> JavaScript </option>
+                </select>
 
-            <label> <input type="checkbox" name="copy" value="1"> Enviar uma copia </label>
-            <label> <input type="checkbox" name="human" value="1"> Humano </label>
+                <label><input type="radio" value="baixa" name="prioridade">Baixa prioridade</label>
+                <label><input type="radio" value="media" name="prioridade">Media prioridade</label>
+                <label><input type="radio" value="alta" name="prioridade">Alta prioridade</label>
 
-            <label for="msg">Mensagem</label>
-            <textarea placeholder="Digite um texto" id="msg"></textarea>
+                <label> <input type="checkbox" name="copy" value="1"> Enviar uma copia </label>
+                <label> <input type="checkbox" name="human" value="1"> Humano </label>
 
-            <input type="submit" class="button-default button-default-sized" value="Enviar">
-            <input type="reset" class="button-default button-default-stroke button-default-sized" value="Limpar">
+                <label for="msg">Mensagem</label>
+                <textarea placeholder="Digite um texto" id="msg"></textarea>
 
+                <input type="submit" class="button-default button-default-sized" value="Enviar">
+                <input type="reset" class="button-default button-default-stroke button-default-sized" value="Limpar">
+
+             </form>
             </section>
 
             <section class="main-content-section">
